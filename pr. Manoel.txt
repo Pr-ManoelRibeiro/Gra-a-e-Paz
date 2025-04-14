@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PR. MANOEL RIBEIRO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 100%;
+      height: auto;
+      opacity: 0.8;
+    }
+    header h1 {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3em;
+      font-weight: bold;
+    }
+    nav {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 250px;
+      height: 100%;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 10px 0;
+    }
+    nav a:hover {
+      background-color: #575757;
+      padding: 5px;
+    }
+    main {
+      margin-left: 260px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="esplanada.jpg" alt="Esplanada das Mesquitas">
+    <h1>GRAÇA, PAZ E MISERICÓRDIA</h1>
+  </header>
+  <nav>
+    <h2>Menu</h2>
+    <a href="#escatologia">Escatologia</a>
+    <a href="#estudos-biblicos">Estudos Bíblicos</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#biblias">Bíblias</a>
+    <a href="#livros">Livros</a>
+    <a href="#curiosidades">Curiosidades</a>
+    <a href="#contatos">Contatos</a>
+  </nav>
+  <main>
+    <h2>Bem-vindo ao site do PR. Manoel Ribeiro!</h2>
+    <p>Aqui você encontrará estudos, reflexões, e recursos para fortalecer sua fé.</p>
+  </main>
+</body>
+</html>
